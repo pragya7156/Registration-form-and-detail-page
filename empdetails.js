@@ -95,7 +95,7 @@ submitBtn.addEventListener('click', () => {
     }
     if(address1.length!==0 || address3.length!==0||address2.length!==0) {
         var address = document.getElementById('address');
-        address.innerText = address1+" , "+address2+" , "+address3;
+        address.innerText = address1+" "+address2+" "+address3;
     }
     if(relationship !== undefined) {
         var marital_status = document.getElementById('marital_status');
@@ -139,7 +139,7 @@ submitBtn.addEventListener('click', () => {
     }
     if(bank_add1.length!==0||bank_add2.length!==0||bank_add3.length!==0) {
         var address1 = document.getElementById('address1');
-        address1.innerText = bank_add1+" , "+bank_add2+" , "+bank_add3;
+        address1.innerText = bank_add1+" "+bank_add2+" "+bank_add3;
     }
     if(account.length!==0) {
         var account1 = document.getElementById('account1');
@@ -163,7 +163,7 @@ submitBtn.addEventListener('click', () => {
     }
     if(Eaddress1.length!==0||Eaddress2.length!==0||Eaddress3.length!==0) {
         var eaddress = document.getElementById('eaddress');
-        eaddress.innerText = Eaddress1+" , "+Eaddress2+" , "+Eaddress3;
+        eaddress.innerText = Eaddress1+" "+Eaddress2+" "+Eaddress3;
     }
     if(EphoneTxt.length!==0) {
         var phone = document.getElementById('phone');
